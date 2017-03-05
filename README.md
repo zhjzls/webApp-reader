@@ -52,3 +52,8 @@ Koa,Vue.js,Zepto等框架结合HTML5开发的一个包含阅读器功能的书城App。
 
 * 邮件: 525136628@qq.com
 * QQ: 525136628
+
+- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
+- [x] list syntax required (any unordered or ordered list supported)
+- [x] this is a complete item
+- [ ] this is an incomplete item
