@@ -1,16 +1,23 @@
 
-webApp阅读器
+WebApp阅读器篇
 ==============
 Koa,Vue.js,Zepto等框架结合HTML5开发的一个包含阅读器功能的书城App。
-整个过程分为几个比较复杂的模块进行开发，如阅读器，书城首页，搜索模块。
+整个过程分为几个比较复杂的模块进行开发、如阅读器、书城首页、搜索模块。
 
-所用到的主要知识点？
+常用知识点
 ------------
 
-* Promise对象：用来传递异步操作的消息，充当异步和回调的中介,免除重复繁琐的回调函数嵌套能
-* localStorage：用来做本地存储，如存储用户所看的文章的ID或者阅读习惯）
+* ES6的Promise对象：用来传递异步操作的消息，充当异步和回调的中介,免除重复繁琐的回调函数嵌套能
+* HTML5的localStorage：用来做客户端存储，如存储用户所看的文章的ID或者阅读习惯
 * ajax：发送请求获得数据后结合Vue对数据做渲染
-* tansition动画: 页面滑动
+* transform属性: 页面滑动
+* 触屏事件: touchstart、touchmove、touchend
+
+收益
+------------
+
+通过这个项目，从一个产品的技术选型到设计流程到代码的编码到测试上线，让我明白了一个产品制作的流程。写阅读器这模块的代码的时候，让我有种感觉到麻雀虽少但五脏俱全的感觉，从页面结构到数据交互都有所涉及，让我明白前后端之间的数据是怎么来往的。我认识到在写代码的时候分模块来开发真的很重要，一个自己觉得复杂的功能，当认真去细化成一个个小模块时，问题迎刃而解。最后，不得不承认我是个菜鸟，还需要努力好好去探索，努力走向全栈工程师这条路。
+
 
 完成功能
 -------
@@ -26,8 +33,8 @@ Koa,Vue.js,Zepto等框架结合HTML5开发的一个包含阅读器功能的书城App。
 目录
 -------
   * mock: 模拟数据,充当数据库的作用
-  * service: 读取数据,充当前后端的纽带
-  * static: 静态资源页
+  * service: 读取数据,充当前后端的纽带。大部分数据是通过mock读取，少部分真实数据是直接发起http请求去获取。
+  * static: 静态资源
   * view: ejs模板
   * app.js: 项目入口
   * package.json: 项目所需依赖
@@ -35,7 +42,7 @@ Koa,Vue.js,Zepto等框架结合HTML5开发的一个包含阅读器功能的书城App。
 
 项目展示
 -------
-  - Thank you to see [me](http://reader666.applinzi.com)!
+  - Thank you to see [me](http://reader666.applinzi.com)! Look better on the phone!
  
 运行项目
 -------
@@ -52,8 +59,3 @@ Koa,Vue.js,Zepto等框架结合HTML5开发的一个包含阅读器功能的书城App。
 
 * 邮件: 525136628@qq.com
 * QQ: 525136628
-
-- [x] @mentions, #refs, [links](), **formatting**, and <del>tags</del> supported
-- [x] list syntax required (any unordered or ordered list supported)
-- [x] this is a complete item
-- [ ] this is an incomplete item
