@@ -4,10 +4,10 @@ Koa,Vue.js,Zepto等框架结合HTML5开发的一个包含阅读器功能的书城App。整个过程分为几
 
 所用到的主要知识点：
 -------------------
-	+       Promise对象：用来传递异步操作的消息，充当异步和回调的中介,免除重复繁琐的回调函数嵌套
-	+       localStorage：用来做本地存储，如存储用户所看的文章的ID或者阅读习惯，
-	+       ajax：发送请求获得数据后结合Vue对数据做渲染
-	+       tansition动画: 页面滑动
+	-  Promise对象：用来传递异步操作的消息，充当异步和回调的中介,免除重复繁琐的回调函数嵌套
+	-  localStorage：用来做本地存储，如存储用户所看的文章的ID或者阅读习惯，
+	-  ajax：发送请求获得数据后结合Vue对数据做渲染
+	-  tansition动画: 页面滑动
 	
 完成功能
 -----------------
@@ -35,7 +35,7 @@ Koa,Vue.js,Zepto等框架结合HTML5开发的一个包含阅读器功能的书城App。整个过程分为几
 	
 项目展示
 --------------
-	http://reader666.applinzi.com
+	Thank you to see [me](http://reader666.applinzi.com)!
 运行项目
 ---------------
 	$ git https://github.com/sinner77/webApp-.git
